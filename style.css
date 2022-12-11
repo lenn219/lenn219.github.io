@@ -21,8 +21,8 @@ body {
     cursor: context-menu;
     opacity: 0;
     transition: opacity;
-    transition-delay: 1s;
-    transition-duration: 5s;
+    transition-delay: 250ms;
+    transition-duration: 2s;
     text-align: center;
 }
 nav {
