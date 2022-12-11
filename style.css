@@ -53,9 +53,6 @@ nav {
     transition: ease-in-out 0.5s;
     background-color: rgb(87, 44, 21) ;
 }
-.hyperlinks span {
-    padding-top: 8px;
-}
 article {
     margin: 2% 2%;
     padding: 20px;
