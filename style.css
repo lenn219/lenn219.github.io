@@ -121,6 +121,7 @@ img {
     max-width: 90%;
     max-height: 90%;
     transition: ease-in-out 500ms;
+    filter: blur(4px);
 }
 img:hover {
     border-radius:  10px;
@@ -128,4 +129,5 @@ img:hover {
     max-width: fit-content;
     max-width: 93%;
     max-height: 93%;
+    filter: blur(1px);
 }
