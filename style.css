@@ -19,6 +19,9 @@ body {
     margin: 3% 10%;
     color: white;
     cursor: context-menu;
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: center;
 }
 nav {
     background-image:url("./images/40b5c9e4b741f5113ca2878fef400cd8--forest-road-green-nature.jpg");
@@ -101,5 +104,3 @@ article div .links:hover {
 .hyperlinks footer {
     font-size: 10px;
 }
-body {
-text-align: center;}
