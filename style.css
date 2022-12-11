@@ -77,6 +77,20 @@ article div:hover {
     border-radius: 20px;
     min-width: 50%;
 }
+article div a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+}
+article div .links:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(153, 205, 50, 0.253);
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 2%;
+}
 .center {
     text-align: center;
     margin: 0px;
