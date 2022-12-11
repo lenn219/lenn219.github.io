@@ -59,6 +59,7 @@ article {
     margin: 2% 2%;
     padding: 20px;
     flex:1;
+    justify-content: center;
     flex-direction: row;
     min-width: 100%;
 }
@@ -70,7 +71,6 @@ article div {
     min-width: 50%;
     transition-timing-function: ease-in-out;
     transition: 500ms;
-    align-items: center;
 }
 article div:hover {
     border-style: solid;
@@ -84,7 +84,6 @@ article div a {
     color: white;
     transition: 500ms;
     transition-timing-function: ease-in-out;
-    justify-content:  center ;
 }
 article div .links:hover {
     text-decoration: none;
