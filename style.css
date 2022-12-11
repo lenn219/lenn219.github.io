@@ -132,3 +132,6 @@ img:hover {
     filter: blur(1px);
     
 }
+a {
+    padding: 1%;
+}
