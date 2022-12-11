@@ -7,7 +7,7 @@
     'opsz' 48
   }
 html{
-    background: #080808;
+    background: url(./images/bg.gif);
 }
 body {
     font-family: 'IBM Plex Mono', monospace;
@@ -26,8 +26,18 @@ body {
     text-align: center;
 }
 nav {
-    background-image:url("./images/40b5c9e4b741f5113ca2878fef400cd8--forest-road-green-nature.jpg");
-    border-color: greenyellow ;
+    background-color: rgba(153, 205, 50, 0.050);
+    border-color: rgba(139, 207, 38, 0.500);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 1%;
+    margin-top: 2%;
+    transition: ease-in-out 500ms;
+}
+nav:hover {
+    background-color: #080808;
+    border-color: yellowgreen;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -57,8 +67,8 @@ nav {
 }
 .hyperlinks li a:hover {
     text-decoration: none;
-    color: #ffd700;
-    background-color: rgb(87, 44, 21) ;
+    color: greenyellow;
+    background-color: rgba(0, 128, 0, 0.250);
 }
 article {
     display: flex;
@@ -71,7 +81,7 @@ article {
 }
 article div {
     border-style: solid;
-    border-color: greenyellow;
+    border-color: rgba(139, 207, 38, 0.500);
     border-width: 2px;
     border-radius: 10px;
     min-width: 50%;
@@ -80,9 +90,7 @@ article div {
 }
 article div:hover {
     border-style: solid;
-    border-color: rgb(140, 207, 38);
-    border-width: 7px;
-    border-radius: 20px;
+    border-color: greenyellow;
     min-width: 50%;
 }
 article div a {
@@ -94,7 +102,7 @@ article div a {
 article div .links:hover {
     text-decoration: none;
     color: white;
-    background-color: rgba(153, 205, 50, 0.253);
+    background-color: rgba(172, 255, 47, 0.650);
     border-radius: 10px;
     padding: 1%;
 }
@@ -105,4 +113,11 @@ article div .links:hover {
 }
 .hyperlinks footer {
     font-size: 10px;
+}
+img {
+    border-radius:  10px;
+    margin: 2%;
+    max-width: fit-content;
+    max-width: 90%;
+    max-height: 90%;
 }
