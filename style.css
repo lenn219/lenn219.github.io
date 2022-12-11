@@ -19,7 +19,8 @@ body {
     margin: 3% 5%;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgb(207,106,50);
-    background:rgb(207,106,50);
+    border-color: greenyellow;
+    border-width: 5px;
     color: white;
 }
 nav {
