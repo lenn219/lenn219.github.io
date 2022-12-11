@@ -13,14 +13,10 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 85vh;
     align-items: center;
     justify-content: center;
-    margin: 3% 5%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 5px rgb(207,106,50);
-    border-color: greenyellow;
-    border-width: 5px;
+    margin: 3% 10%;
     color: white;
 }
 nav {
@@ -28,6 +24,7 @@ nav {
     box-shadow: 0px 0px 5px 5px rgb(136, 69, 33);
     border-radius: 10px;
     margin: 1%;
+    margin-top: 2%;
 }
 .hyperlinks {
     font-size: 24px;
@@ -57,9 +54,9 @@ nav {
 article {
     margin: 2% 2%;
     padding: 20px;
-    background-color: rgb(136, 69, 33) ;
+    border-style: solid;
+    border-color: greenyellow ;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 5px rgb(136, 69, 33);
     flex:1;
 }
 .center {
