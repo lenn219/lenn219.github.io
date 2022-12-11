@@ -73,7 +73,7 @@ article div {
 article div:hover {
     border-style: solid;
     border-color: rgb(140, 207, 38);
-    border-width: 10px;
+    border-width: 7px;
     border-radius: 20px;
     min-width: 50%;
 }
@@ -88,8 +88,7 @@ article div .links:hover {
     color: white;
     background-color: rgba(153, 205, 50, 0.253);
     border-radius: 10px;
-    border-width: 5px;
-    padding: 2%;
+    padding: 1%;
 }
 .center {
     text-align: center;
