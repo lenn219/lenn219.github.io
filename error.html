@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+      .material-symbols-rounded {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+      }
+      html {
+        background: #080808;
+      }
+      body {
+        font-family: 'IBM Plex Mono', monospace;
+        display: flex;
+        flex-direction: column;
+        min-height: 85vh;
+        align-items: center;
+        justify-content: center;
+        margin: 3% 10%;
+        color: white;
+        cursor: context-menu;
+        opacity: 1;
+        transition: opacity;
+        transition-delay: 250ms;
+        transition-duration: 3s;
+        text-align: center;
+      }
+      nav {
+        background-color: rgba(153, 205, 50, 0.050);
+        border-color: rgba(139, 207, 38, 0.500);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 1%;
+        margin-top: 2%;
+        transition: ease-in-out 500ms;
+      }
+      nav:hover {
+        background-color: #080808;
+        border-color: yellowgreen;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 1%;
+        margin-top: 2%;
+      }
+      .hyperlinks {
+        font-size: 24px;
+        align-items: center;
+        padding: 0px;
+        margin: 0%;
+      }
+      .hyperlinks li {
+        padding: 20px;
+        align-items: center;
+        display: block;
+        float: left;
+      }
+      .hyperlinks li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        transition: ease-in-out 0.5s;
+      }
+      .hyperlinks li a:hover {
+        text-decoration: none;
+        color: greenyellow;
+        background-color: rgba(0, 128, 0, 0.250);
+      }
+      article {
+        display: flex;
+        margin: 2% 2%;
+        padding: 20px;
+        flex:1;
+        justify-content: center;
+        flex-direction: row;
+        min-width: 100%;
+      }
+      article div {
+        border-style: solid;
+        border-color: rgba(139, 207, 38, 0.500);
+        border-width: 2px;
+        border-radius: 10px;
+        min-width: 50%;
+       transition-timing-function: ease-in-out;
+transition: 500ms;
+      }
+      article div:hover {
+        border-style: solid;
+        border-color: greenyellow;
+        min-width: 50%;
+      }
+      article div a {
+        text-decoration: none;
+        color: white;
+        transition: 500ms;
+        transition-timing-function: ease-in-out;
+      }
+      article div .links:hover {
+        text-decoration: none;
+        color: white;
+        background-color: rgba(172, 255, 47, 0.650);
+        border-radius: 10px;
+        padding: 1%;
+      }
+      .center {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+      }
+      .hyperlinks footer {
+        font-size: 10px;
+      }
+      img {
+        border-radius:  10px;
+        margin: 2%;
+        max-width: fit-content;
+        max-width: 90%;
+        max-height: 90%;
+        transition: ease-in-out 500ms;
+        filter: blur(4px);
+      }
+      img:hover {
+        border-radius:  10px;
+        margin: 2%;
+        max-width: fit-content;
+        max-width: 93%;
+        max-height: 93%;
+        filter: blur(1px);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="hyperlinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="center">
+      <h1>Oops, something went wrong!</h1>
+      <p>We're sorry, but it looks like there was an error on our website. Please try again later or contact us if the issue persists.</p>
+      <a href="index.html" class="button">Go back to the home page</a>
+    </div>
+    <article>
+    </article>
+    <footer>
+      <p class="hyperlinks">Copyright 2021</p>
+    </footer>
+  </body>
+</html>
+
